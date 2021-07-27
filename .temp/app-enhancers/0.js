@@ -1,1 +1,1 @@
-export { default } from "/Users/dxy/Documents/dxy-gzh/front-end-interview/docs/.vuepress/enhanceApp.js"
+export { default } from "/mnt/e/workspace/front-end-interview/docs/.vuepress/enhanceApp.js"

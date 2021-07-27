@@ -1,11 +1,12 @@
 const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = ctx => ({
+  base: '/front-end-interview/',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '前端面试与进阶指南',
-      description: '可能是全网最给力的前端面试项目'
+      title: '前端指南',
+      description: '可能是全网最给力的前端**项目'
     }
   },
   head: [
@@ -69,7 +70,7 @@ function renderSiderBar() {
         ]
   },
   {
-    title: '面试技巧',
+    title: '**技巧',
     collapsable: false,
     children: [
           'resume',

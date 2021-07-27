@@ -1,18 +1,18 @@
 # Vue的响应式系统
 
-点击关注本[公众号](#公众号)获取文档最新更新,并可以领取配套于本指南的 **《前端面试手册》** 以及**最标准的简历模板**.
+点击关注本[公众号](#公众号)获取文档最新更新,并可以领取配套于本指南的 **《前端**手册》** 以及**最标准的简历模板**.
 
 ## 响应式系统
 
 UI 在 MVVM 中指的是 View，状态在 MVVM 中指的是 Modal，而保证 View 和 Modal 同步的是 View-Modal。
 
-Vue 通过一个[响应式系统](https://cn.vuejs.org/v2/guide/reactivity.html#ad)保证了View 与 Modal的同步,由于要兼容IE,Vue 选择了 `Object.defineProperty`作为响应式系统的实现,但是如果不考虑 IE 用户的话,` Object.defineProperty`并不是一个好的选择,具体请看[面试官系列(4): 基于Proxy 数据劫持的双向绑定优势所在](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)。
+Vue 通过一个[响应式系统](https://cn.vuejs.org/v2/guide/reactivity.html#ad)保证了View 与 Modal的同步,由于要兼容IE,Vue 选择了 `Object.defineProperty`作为响应式系统的实现,但是如果不考虑 IE 用户的话,` Object.defineProperty`并不是一个好的选择,具体请看[**官系列(4): 基于Proxy 数据劫持的双向绑定优势所在](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)。
 
 我们将用 Proxy 实现一个响应式系统。
 
 ![](https://user-gold-cdn.xitu.io/2018/6/6/163d41869ea10f6d?w=750&h=390&f=png&s=33203)
 
-> 建议阅读之前看一下[面试官系列(4): 基于Proxy 数据劫持的双向绑定优势所在](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)中基于`Object.defineProperty`的大致实现。
+> 建议阅读之前看一下[**官系列(4): 基于Proxy 数据劫持的双向绑定优势所在](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)中基于`Object.defineProperty`的大致实现。
 
 ## 发布订阅中心
 
@@ -210,10 +210,10 @@ export default function pushQueue(watcher) {
 
 ## 公众号
 
-想要实时关注笔者最新的文章和最新的文档更新请关注公众号**程序员面试官**,后续的文章会优先在公众号更新.
+想要实时关注笔者最新的文章和最新的文档更新请关注公众号**程序员**官**,后续的文章会优先在公众号更新.
 
 **简历模板:** 关注公众号回复「模板」获取
 
-**《前端面试手册》:** 配套于本指南的突击手册,关注公众号回复「fed」获取
+**《前端**手册》:** 配套于本指南的突击手册,关注公众号回复「fed」获取
 
 ![2019-08-12-03-18-41]( https://xiaomuzhu-image.oss-cn-beijing.aliyuncs.com/d846f65d5025c4b6c4619662a0669503.png)
